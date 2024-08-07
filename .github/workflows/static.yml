@@ -38,7 +38,7 @@ jobs:
           # Upload the static and javascript folders
           path: |
             ./static
-            ./javascript
+            ./js
 
       - name: Deploy to GitHub Pages
         id: deployment
