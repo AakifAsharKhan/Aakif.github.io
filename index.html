@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <button class="navbar-toggler mx-3 my-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center my-3" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="home">
+            <h1>Hi, I'm Aakif Ashar Khan</h1>
+            <p id="typing-effect"></p>
+        </section>
+
+        <section id="resume" class="resume-section">
+            <div class="container">
+                <h2 class="section-title">Resume</h2>
+
+                <div class="resume-content">
+                    <div class="resume-header">
+                        <h1>AAKIF ASHAR KHAN</h1>
+                        <p>Manipal, Karnataka | +91 87701 48631 | <a href="mailto:akifkhan892@gmail.com">
+                                akifkhan892@gmail.com </a>| <a href="https://linkedin.com/in/AakifKhan">LinkedIn</a> |
+                            <a href="Github.com/AakifAsharKhan">GitHub</a>
+                        </p>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3>EDUCATION</h3>
+                        <div class="resume-item">
+                            <h4>Manipal School of Information Science</h4>
+                            <h5>M.E. Artificial Intelligence and Machine Learning</h5>
+                            <p>Aug 2022 - July 2024</p>
+                            <ul>
+                                <li>GPA - 9.12/10</li>
+                                <li>Relevant Coursework - Machine Learning, Deep Learning, CNN</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Have to bold important points! 
+Note only 10% of total words are needed to be bold! -->
+
+                    <div class="resume-section">
+                        <h3>WORK EXPERIENCE</h3>
+                        <div class="resume-item">
+                            <h4>Stryker - DRE</h4>
+                            <h5>Research and Development Intern</h5>
+                            <p>July 2023 - Present</p>
+                            <ul>
+                                <li>Collaborated on a team to create a Proof of Concept (POC) for a new solution,
+                                    demonstrating its potential benefits and gathering positive feedback for future
+                                    implementation strategies.</li>
+                                <li>Utilized the YOLO object detection framework for efficient and accurate object
+                                    detection in images and videos, facilitating real-time recognition for various
+                                    computer vision tasks.</li>
+                                <li>Integrated Python models into native C++ applications using OpenCV DNN, ensuring
+                                    smooth real-time processing.</li>
+                                <li>Created multiple Python scripts to facilitate computer vision tasks.</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Starling Studio</h4>
+                            <h5>Software Engineering Intern</h5>
+                            <p>Feb 2021 - May 2021</p>
+                            <ul>
+                                <li>Collaborated with a 4-member team in agile environment to develop a resume scorer
+                                    website.</li>
+                                <li>Developed APIs with Flask and designed interfaces using Tkinter, aligning closely
+                                    with provided requirements.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3>PROJECTS</h3>
+                        <div class="resume-item">
+                            <h4>Pothole Identification and Reporting System - PIRS</h4>
+                            <p>Jan 2022 - May 2022</p>
+                            <p>Real time pothole detection and alerting system.</p>
+                            <ul>
+                                <li>Implemented a project based on the YOLOv5 Framework to train an object detection
+                                    model for real-time pothole detection and user alert.</li>
+                                <li>Collected and stored pothole data in a central database for future use-cases,
+                                    utilizing 400 images for training.</li>
+                                <li>The setup consisted of a Raspberry Pi, Arduino, Camera, and GPS Module. This model
+                                    is deployed on a Raspberry Pi, which was then fitted on a vehicle.</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Book My Shot</h4>
+                            <p>May 2021 - April 2021</p>
+                            <p>Covid Vaccine Availability Notifier</p>
+                            <ul>
+                                <li>Designed and implemented a real-time notification system leveraging CoWIN APIs,
+                                    enabling users to receive immediate updates on COVID-19 vaccine availability.</li>
+                                <li>Implemented a comprehensive request handler using Flask and RESTful APIs within a
+                                    system to manage, update, and store multi-user data, facilitating timely updates on
+                                    vaccine availability.</li>
+                                <li>For the front-end, developed a user-friendly interface employing JavaScript, HTML,
+                                    and CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3>PUBLICATION</h3>
+                        <div class="resume-item">
+                            <h4>Support system for neonatal sepsis</h4>
+                            <p>Mar 2023 - Sep 2023</p>
+                            <p>Clinical decision support system using machine learning.</p>
+                            <ul>
+                                <li>Collaborate with the health science team to collect and analyze relevant data on
+                                    infant sepsis, including clinical parameters, vital signs, laboratory results, and
+                                    patient history.</li>
+                                <li>Employ machine learning algorithms like SVM, Logistic Regression, Decision Trees
+                                    etc. To develop a predictive model for the early recognition of sepsis in infants.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3>SKILLS & COURSES</h3>
+                        <div class="resume-item">
+                            <h4>Skills:</h4>
+                            <p>Python, C++, SQL, NoSQL, RESTful APIs, Javascript, React JS</p>
+                            <h4>Libraries and Tools:</h4>
+                            <p>Pandas, NumPy, Matplotlib, TensorFlow, Flask, Django, Postman, VS Code</p>
+                            <h4>Courses:</h4>
+                            <ul>
+                                <li>Python for Everybody Coursera Specialization (UMI)</li>
+                                <li>998-381 Microsoft Technology Associate</li>
+                                <li>Neural Networks and Deep Learning</li>
+                                <li>C++ Advanced Certification LinkedIn Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-posts">
+                <article>
+                    <h3>[Blog Post Title]</h3>
+                    <p>[Blog post excerpt...]</p>
+                    <a href="#">Read more</a>
+                </article>
+                <article>
+                    <h3>[Blog Post Title]</h3>
+                    <p>[Blog post excerpt...]</p>
+                    <a href="#">Read more</a>
+                </article>
+                <article>
+                    <h3>[Blog Post Title]</h3>
+                    <p>[Blog post excerpt...]</p>
+                    <a href="#">Read more</a>
+                </article>
+
+                <!-- Add more blog posts as needed -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h3>Get in Touch</h3>
+                        <form id="contact-form">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Find Me</h3>
+                        <div class="map-container">
+                            <!-- Replace the src attribute with your actual Google Maps embed URL -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.5027974847358!2d74.49393737808354!3d14.106502651059046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc47c5a2e4e2b9%3A0x3c1c74a01f983a54!2sThe%20Khan%20House!5e0!3m2!1sen!2sin!4v1722970978018!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-light text-center py-3">
+            <!-- <p>&copy; 2024 Aakif Ashar Khan. All rights reserved.</p> -->
+            <p> Caught you staring at this. Let's have a chat? Hit me up at +91 87701 48631 or connect
+                with me on <a href="https://linkedin.com/in/AakifKhan">Linkedin</a> </p>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+
+</body>
+<script src="script.js"></script>
+
+</html>

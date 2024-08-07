@@ -1,0 +1,239 @@
+:root {
+    --primary-color: #e6f3ff;
+    --secondary-color: #b3d9ff;
+    --text-color: #003366;
+    --accent-color: #4da6ff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+main {
+    padding-top: 60px; /* Adjust based on your navbar height */
+}
+
+
+.nav-item a{
+font-size: 1.2rem;
+border-radius: 1rem;
+padding: 0.8rem 0.8rem;
+margin-left: 3rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background: var(--accent-color);
+    color: var(--primary-color); /* Change to orange */
+    text-decoration: underline; /* Add underline */
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    scroll-margin-top: 60px; /* Adjust based on your navbar height */
+}
+
+
+section:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+#home h1 {
+    font-size: 5rem;
+}
+#home p{
+    font-size: 2.5rem;
+}
+
+
+/* Resume Section Styles */
+.resume-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .resume-section {
+    padding: 0.5rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-top: 1.75rem;
+    margin-bottom: 1.25rem;
+    color: #333;
+    font-size: 2.5rem;
+  }
+  
+  .resume-content {
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+  }
+  
+  .resume-header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  
+  .resume-header h1 {
+    margin-bottom: 0.3125rem;
+    color: #333;
+    font-size: 1.75rem;
+  }
+  
+  .resume-header p {
+    color: #666;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  
+  .resume-section h3 {
+    border-bottom: 0.125rem solid #007bff;
+    padding-bottom: 0.3125rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  .resume-item {
+    margin-bottom: 0.9375rem;
+  }
+  
+  .resume-item h4 {
+    margin-bottom: 0.125rem;
+    color: #333;
+    font-size: 1.25rem;
+  }
+  
+  .resume-item h5 {
+    margin-bottom: 0.125rem;
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  .resume-item p {
+    margin-bottom: 0.3125rem;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  .resume-item ul {
+    padding-left: 1.25rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+  }
+  
+  .resume-item ul li {
+    margin-bottom: 0.1875rem;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.blog-posts article {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#contact form {
+    max-width: 100%;
+    width: 100%;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Adjust this value to change the aspect ratio of the map */
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 1rem;
+    }
+    .navbar-nav{
+        margin-top: 0.3em ;
+    }
+
+    .nav-item a{
+        /* margin-left: 1rem; */
+        margin: 0.3rem;
+        }
+
+    #home h1 {
+            font-size: 2.2rem;
+        }
+    #home p{
+            font-size: 1.2rem;
+        }
+
+    .resume-content {
+            padding: 15px;
+          }
+          .resume-content {
+            padding: 0.9375rem;
+          }
+          
+          .section-title {
+            font-size: 1.75rem;
+          }
+          
+          .resume-header h1 {
+            font-size: 1.5rem;
+          }
+          
+          .resume-section h3 {
+            font-size: 1.3rem;
+          }
+          
+          .resume-item h4 {
+            font-size: 1.1rem;
+          }
+          
+          .resume-item h5 {
+            font-size: 1rem;
+          }
+}
